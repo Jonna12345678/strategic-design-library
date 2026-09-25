@@ -1,0 +1,35 @@
+{
+  "kategoriat": [
+    { "id": "visio-ja-strategia", "nimi": "Visio- ja strategiatyö" },
+    { "id": "konseptointi-ja-tuotekehitys", "nimi": "Palvelun konseptointi ja tuotekehitys" }
+  ],
+  "menetelmat": [
+    {
+      "id": "north-star-visiotyopaja",
+      "nimi": "North Star -visiotyöpaja",
+      "kategoria": "visio-ja-strategia",
+      "tiivistelma": "Puolen päivän fasilitoitu työpaja, jossa johtoryhmä tai avaintiimi määrittelee yhteisen suunnan yhden mitattavan north star -tavoitteen ympärille.",
+      "tilanteet": [
+        "johtoryhmän jäsenillä on keskenään ristiriitainen käsitys siitä mihin yritys on menossa",
+        "strategia on olemassa paperilla mutta se ei ohjaa arjen priorisointia",
+        "uusi liiketoiminta-alue tai tuotelinja tarvitsee suunnan ennen tiekartan tekoa",
+        "organisaatiossa on liikaa yhtä aikaa ajettavia tavoitteita ja fokus on hukassa"
+      ],
+      "polku": "methods/north-star-visiotyopaja.md"
+    },
+    {
+      "id": "tarvelahtoinen-yhteissuunnittelu",
+      "nimi": "Tarvelähtöinen yhteissuunnittelu",
+      "kategoria": "konseptointi-ja-tuotekehitys",
+      "tiivistelma": "Prosessi, jossa todelliset käyttäjä- tai asiakastarpeet ja haasteet tunnistetaan tutkimuksella ennen ratkaisuideointia, ja sopivimmat ratkaisuideat suunnitellaan yhdessä sidosryhmien kanssa oletusten sijaan.",
+      "tilanteet": [
+        "ratkaisuja ideoidaan tai jo rakennetaan ennen kuin todellinen tarve on validoitu",
+        "sidosryhmillä on keskenään eriäviä käsityksiä siitä mikä oikeasti on ongelma",
+        "aiempi kehitys on tuottanut ominaisuuksia joita kukaan ei lopulta käytä",
+        "halutaan varmistaa että rajallinen kehitysresurssi kohdistuu oikeaan asiaan ennen kuin sitä sidotaan",
+        "organisaatio olettaa tietävänsä asiakkaan tarpeen, mutta oletus on peräisin sisältä eikä käyttäjiltä"
+      ],
+      "polku": "methods/tarvelahtoinen-yhteissuunnittelu.md"
+    }
+  ]
+}
